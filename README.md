@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<h1 align="center">Projeto formulário de cadastro e uma lista de notas</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Neste projeto construi um formulario de cadastros e uma lista de notas que vai passar informações para a lista de notas usando o elemento pai como meio de passar informações. A gente vai usar o app para passar informações de um lado para o outro, e essas informações vão ser passadas através de propriedades.
 
-## Available Scripts
+Neste projeto aprendi a como preparar o ambiente instalando o Node.js e o NPX para podermos criar a aplicação via Create-React-App, Limpamos o projeto para não deixar elementos que não serão utilizados mais pra frente sujarem nossa hierarquia, como podemos criar class components, entendendo como o JSX renderiza objetos, Hierarquia entre componentes (Pai/filhos),componentes podem ter filhos que são componentes, como integrar o Javascript no meio do seu JSX, como integrar CSS dentro da sua aplicação React, diferenças do class e className, propriedade "key" dos componentes, padrão de nomenclatura do CSS, tratando o conflito de nomes, ponto de entrada dos módulos, organização do projeto, como o this do JS é dinâmico e como lidar com isso, referências para funções e injeção de dependências, associando referências através do bind, passando propriedades para elementos filhos, como transmitir informações entre objetos, fluxo de atualização do sistema, para que serve o state, como atribuir o state de maneira segura, atualizando a visualização da tela dinamicamente.
 
-In the project directory, you can run:
+### Pré-requisitos
 
-### `npm start`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para rodar a Projeto de digite em seu terminal "npm start" sem as aspas e o seu projeto iniciar na http://localhost:3000/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🛠 Tecnologias
 
-### `npm test`
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3> 📌 Página inicial </h3>
+<p align="center">
+<img src="C:\Users\Matheus\Desktop\Reactjs testes\my-app\ReadmeImg\paginaInicial.png">
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<h3> 📌 Página inicial </h3>
+<p align="center">
+<img src="C:\Users\Matheus\Desktop\Reactjs testes\my-app\ReadmeImg\Pagina2.png">
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Autor
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ <img style="border-radius: 50%;" src="C:\Users\Matheus\Desktop\Reactjs testes\my-app\ReadmeImg\FotoPerfil.jpeg" width="100px;" alt=""/>
+ <br />
+ <sub><b>Matheus Torsoni</b></sub></a>
 
-## Learn More
+Feito por Matheus Torsoni👋🏽 Entre em contato!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Twitter Badge](https://img.shields.io/badge/-@tcmatheus-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tcmatheus_)](https://twitter.com/tcmatheus_) [![Linkedin Badge](https://img.shields.io/badge/-Matheus Torsoni?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-torsoni-b33957156/)](https://www.linkedin.com/in/matheus-torsoni-b33957156/) 
+[![Outlook Badge](https://img.shields.io/badge/-matheus_tcampos@hotmail.com-c14438?style=flat-square&logo=outlook&logoColor=white&link=mailto:matheus_tcampos@hotmail.com)](matheus_tcampos@hotmail.com)

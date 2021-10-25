@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./estilo.css";
+
 class CardNotas extends Component {
   render() {
     return (
@@ -12,5 +13,4 @@ class CardNotas extends Component {
     );
   }
 }
-
 export default CardNotas;
