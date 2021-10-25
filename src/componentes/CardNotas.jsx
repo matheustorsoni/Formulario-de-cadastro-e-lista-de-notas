@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 
-class cardNotas extends Component{
-render(){
-    return(
-        <section>
+class CardNotas extends Component{
+    render() {
+        return (
+          <section>
             <header>
-                <h3>Titulo</h3>
+              <h3>Título</h3>
             </header>
             <p>Escreva sua nota</p>
-        </section>
-    );
-  }
-}
+          </section>
+        );
+      }
+    }
+    
 
-export default cardNotas;
+export default CardNotas;

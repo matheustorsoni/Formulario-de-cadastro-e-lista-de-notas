@@ -1,12 +1,13 @@
+
 import React, { Component } from "react";
 
 class FormularioCadastro extends Component {
   render() {
     return (
       <form>
-        <input type="text" placeholder="titulo" />
-        <textarea placeholder="escreva sua nota..." />
-        <button>Criar nota</button>
+        <input type="text" placeholder="Título" />
+        <textarea placeholder="Escreva sua nota..." />
+        <button>Criar Nota</button>
       </form>
     );
   }

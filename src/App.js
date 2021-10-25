@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FormularioCadastro  from './componentes/FormularioCadastro';
-import ListaDeNotas   from './componentes/listaDeNotas';
+import ListaDeNotas   from './componentes/ListaDeNotas';
+
 
 
 class App extends Component{
@@ -11,7 +12,7 @@ render (){
     <ListaDeNotas />
   </section>
 );
-}
+} 
  
 }
 
